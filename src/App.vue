@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <h1>黑马头条</h1>
     <!-- 路由占位符 -->
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -12,5 +11,10 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
+ .box {
+  width: 750px;
+  height: 200px;
+  background-color: pink;
+ }
 </style>
